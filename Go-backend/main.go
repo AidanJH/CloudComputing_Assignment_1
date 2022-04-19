@@ -9,6 +9,7 @@ func main() {
 
 }
 
+//Create a session with AWS using standard credentials
 func initSession() {
 	sess := session.Must(session.NewSessionWithOptions(session.Options{
 		SharedConfigState: session.SharedConfigEnable,
